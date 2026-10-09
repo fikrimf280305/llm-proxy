@@ -21,4 +21,4 @@ app.post('/v1/chat/completions', async ({ body }) => {
     return response
 })
 
-app.listen(3000)
+export default app
